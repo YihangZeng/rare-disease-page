@@ -114,14 +114,14 @@ export default function Page() {
                   </div>
                 ) : section.useChart ? (
                   <div className="mt-8">
-                    <EconomicBurdenPie />
+                    <EconomicBurdenPie style={{}} />
                     <p className="text-sm text-gray-200 italic text-center mt-2">
                       数据来源于《中国罕见病诊疗与血液制品未满足临床需求研究（2024-2025年）》
                     </p>
                   </div>
                 ) : section.useZuhe ? (
                   <div className="mt-8">
-                    <RareDrugInsuranceCharts />
+                    <RareDrugInsuranceCharts style={{}} />
                     <p className="text-sm text-gray-200 italic text-center mt-2">
                       数据来源于《2024沙利文罕见病行业趋势观察报告》
                     </p>
@@ -129,17 +129,6 @@ export default function Page() {
                 ) : section.useTable ? (
                   <div>
                     <RareDrugTable />
-                  </div>
-                ) : section.image ? (
-                  <div className="space-y-2">
-                    <img
-                      src={section.image.src}
-                      alt={section.image.alt}
-                      className="w-full rounded-lg shadow-lg"
-                    />
-                    <p className="text-sm text-gray-200 italic text-center">
-                      {section.image.caption}
-                    </p>
                   </div>
                 ) : null}
               </motion.div>

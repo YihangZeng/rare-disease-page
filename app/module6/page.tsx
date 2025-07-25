@@ -407,7 +407,7 @@ export default function Page() {
                   <PolicyTimeline data={timelineData} caption={section.caption} />
                 ) : idx === 1 ? (
                   <>
-                    <PatientAidGraph />
+                    <PatientAidGraph style={{}} />
                     <p className="text-sm text-gray-200 italic text-center mt-2">
                       数据来源于《2024沙利文罕见病行业趋势观察报告》
                     </p>
