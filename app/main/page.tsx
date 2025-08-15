@@ -8,7 +8,7 @@ import BubbleChart from "@/components/bc";
 
 const patients = [
   { id: 1, img: "/images/patient-xiaolei.png" },
-  { id: 2, img: "/images/patient-xiaofan1.png" },
+  { id: 2, img: "/images/xf1.jpg" },
   { id: 3, img: "/images/patient-xiaonan.png" },
 ];
 
