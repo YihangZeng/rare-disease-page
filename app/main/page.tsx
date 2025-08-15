@@ -8,7 +8,7 @@ import BubbleChart from "@/components/bc";
 
 const patients = [
   { id: 1, img: "/images/patient-xiaolei.png" },
-  { id: 2, img: "/images/patient-xiaofan.png" },
+  { id: 2, img: "/images/patient-xiaofan1.png" },
   { id: 3, img: "/images/patient-xiaonan.png" },
 ];
 
@@ -110,8 +110,8 @@ export default function HomeIntro() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1, duration: 1.5 }}
             >
-              <h2 className="text-3xl font-semibold mb-4">介绍罕见病</h2>
-              <p>罕见病，指的是患病率极低、患者人数稀少的一类疾病。虽然单一病种的患者规模不大，但作为一个整体，其影响范围远超公众想象。数据显示，全球已知的罕见病种类已超过7,000种。其中，根据患病率标准定义的5,304种罕见病中，超过八成（84.5%）的发病率低于百万分之一。</p>
+              <h2 className="text-3xl font-semibold mb-4">什么是罕见病</h2>
+              <p>罕见病，指的是患病率极低、患者人数稀少的一类疾病。虽然单一病种的患者规模可能不大，但作为一个整体，其影响范围远超公众想象。数据显示，全球已知的罕见病种类已超过7,000种。其中，根据患病率标准定义的5,304种罕见病中，超过八成（84.5%）的发病率低于百万分之一。</p>
               <p>尽管如此，罕见病的总体患病人群规模却并不“罕见”。循证医学数据显示，全球范围内罕见病的患病率约为3.5%至5.9%，受影响人数估计达2.6亿至4.5亿人。在中国，公开文献中已记录的罕见病种类超过1,400种，而实际数量或远高于此。由于罕见病的确诊难度大，不少患者被误诊为常见疾病或长期未被发现，导致诊疗路径复杂、延误严重。</p>
               <div className="mt-8 text-center">
                 <img src="/images/rare-disease-chart.png" alt="罕见病群体不罕见图表1" className="mx-auto rounded max-w-full shadow-lg" />
