@@ -15,7 +15,7 @@ const questions = [
   {
     id: 1,
     question: "小丽说她开始不受控制地手舞足蹈，无法像正常人一样行走、生活。",
-    options: ["假的吧", "精神病", "我不知道是什么", "亨廷顿舞蹈病"],
+    options: ["抽搐症", "精神病", "我不知道是什么", "亨廷顿舞蹈病"],
     answer: "亨廷顿舞蹈病",
     explanation: "亨廷顿病是一种罕见的常染色体显性遗传性神经系统变性疾病，典型表现包括逐渐进展的舞蹈样动作、认知障碍和精神行为异常。",
     link: "https://baike.baidu.com/item/%E4%BA%A8%E5%BB%B7%E9%A1%BF%E8%88%9E%E8%B9%88%E7%97%87/10898724"
@@ -287,7 +287,7 @@ export default function StoryPage() {
                     variants={sectionVariants}
                   >
                     <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">
-                      互动：面对这种情况，你会有怎样的想法？
+                      面对这种情况，你会有怎样的想法？
                     </h2>
                     <p className="mb-12 text-gray-700 leading-relaxed text-center text-lg">
                       许许多多的误解让像小梦这样的罕见病患者，在尝试求助后，逐渐变得沉默。这份沉默，并非因为他们不愿说，而是因为我们听不见、也听不懂。我们对于罕见病的了解，太少了。
