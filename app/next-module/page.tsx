@@ -44,7 +44,7 @@ export default function NextModulePage() {
         
         <section className="space-y-6 text-lg max-w-5xl mx-auto leading-relaxed text-gray-200">
           <p>
-            大多数公众对于罕见病的认知都非常匮乏，根据深圳国际公益学院社会政策研究中心的统计，百分之七十五的社会公众仅知道3种及以下的罕见病病种，13%的社会公众对于罕见病一无所知。
+            大多数公众对于罕见病的认知都非常匮乏，根据深圳国际公益学院社会政策研究中心的统计，仅25%的公众了解3种以上的罕⻅病病种，13%的社会公众对于罕见病一无所知。
           </p>
           
           <div className="my-6 flex justify-center">
@@ -55,7 +55,7 @@ export default function NextModulePage() {
             />
           </div>
           <p>
-            这份“不了解”，也成为误诊与延误治疗的温床。罕见病病种繁多、症状复杂，常常导致诊断延迟甚至误诊。据Orphanet罕见病知识库统计，罕见病已知症状累计多达xxx余种，涵盖神经系统、免疫系统、皮肤等多个领域。
+            这份“不了解”，也成为误诊与延误治疗的温床。罕见病病种繁多、症状复杂，常常导致诊断延迟甚至误诊。据Orphanet罕见病知识库统计，罕见病已知症状累计多达7000余种，涵盖神经系统、免疫系统、皮肤等多个领域。
           </p>
           
           {/* 词云图放这里 */}
@@ -68,7 +68,7 @@ export default function NextModulePage() {
           </div>
           
           <p className="text-center italic text-gray-400 mb-10">
-            【 注：数据来源于Orphanet罕见病知识库，基于xx选取xx种病症；标题：《罕见病都有哪些病症？（部分）》】
+            【 注：数据来源于Orphanet罕见病知识库，基于筛选患病人数较多的病症（近四分之一）；标题：《罕见病都有哪些病症？（部分）》】
           </p>
           
           <p>
